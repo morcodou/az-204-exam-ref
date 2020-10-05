@@ -10,7 +10,7 @@ namespace SharedAccessSignatures
 {
     class ProgramUseSAS
     {
-        static void Main(string[] args)
+        static void MainUse(string[] args)
         {
             string storageAccount = "az204testing";
             string containerName = "az204-blob-testing";

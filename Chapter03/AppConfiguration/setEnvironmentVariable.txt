@@ -1,0 +1,2 @@
+﻿// In your Visual Studio Code window, open a new terminal and type the following command.
+setx ConnectionString "<your_connection_string>"

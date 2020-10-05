@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth2Authentication", "Cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedAccessSignatures", "Chapter03\SharedAccessSignatures\SharedAccessSignatures.csproj", "{B6F21DE5-4E71-4AFA-8587-93174AB2229D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppConfiguration", "Chapter03\AppConfiguration\AppConfiguration.csproj", "{BE2CC4DC-2536-4F49-BF1B-A4839D2DF5F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{B6F21DE5-4E71-4AFA-8587-93174AB2229D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6F21DE5-4E71-4AFA-8587-93174AB2229D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6F21DE5-4E71-4AFA-8587-93174AB2229D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2CC4DC-2536-4F49-BF1B-A4839D2DF5F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2CC4DC-2536-4F49-BF1B-A4839D2DF5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2CC4DC-2536-4F49-BF1B-A4839D2DF5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2CC4DC-2536-4F49-BF1B-A4839D2DF5F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{8E5EACD0-E4C9-4228-AF4E-69ACA98BC5BE} = {E3D44014-A21A-4B5A-BA68-657D3D58C285}
 		{EEFB6FC9-32A0-484D-BF75-BC1026C387AA} = {C79C9FDD-73FB-4B2D-87DA-7D06D900BB5C}
 		{B6F21DE5-4E71-4AFA-8587-93174AB2229D} = {C79C9FDD-73FB-4B2D-87DA-7D06D900BB5C}
+		{BE2CC4DC-2536-4F49-BF1B-A4839D2DF5F6} = {C79C9FDD-73FB-4B2D-87DA-7D06D900BB5C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68C9AEF6-C67F-4EEC-8D84-002D4D6CCA69}
