@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter03", "Chapter03", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth2Authentication", "Chapter03\OAuth2Authentication\OAuth2Authentication.csproj", "{EEFB6FC9-32A0-484D-BF75-BC1026C387AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedAccessSignatures", "Chapter03\SharedAccessSignatures\SharedAccessSignatures.csproj", "{B6F21DE5-4E71-4AFA-8587-93174AB2229D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedAccessSignatures", "Chapter03\SharedAccessSignatures\SharedAccessSignatures.csproj", "{B6F21DE5-4E71-4AFA-8587-93174AB2229D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppConfiguration", "Chapter03\AppConfiguration\AppConfiguration.csproj", "{BE2CC4DC-2536-4F49-BF1B-A4839D2DF5F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppConfiguration", "Chapter03\AppConfiguration\AppConfiguration.csproj", "{BE2CC4DC-2536-4F49-BF1B-A4839D2DF5F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyVaultAPI", "Chapter03\KeyVaultAPI\KeyVaultAPI.csproj", "{051ACE88-4186-407B-A33E-843DD7C55B95}"
 EndProject
@@ -32,6 +32,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationInsightsTelemetry", "Chapter04\ApplicationInsightsTelemetry\ApplicationInsightsTelemetry.csproj", "{E0D39EDE-ECCF-47FD-B1B3-E0B65419CB0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicAppCustomConnector", "Chapter05\LogicAppCustomConnector\LogicAppCustomConnector.csproj", "{59D0260A-0DF6-41D1-B986-8E7512A9B0FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishCustomToEventGrid", "Chapter05\PublishCustomToEventGrid\PublishCustomToEventGrid.csproj", "{5633C33E-B505-4D25-8448-752C1332FCEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriberToEventGridTopic", "Chapter05\SubscriberToEventGridTopic\SubscriberToEventGridTopic.csproj", "{D8710E55-7AC8-463E-BCF9-04E6CA903C26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +83,14 @@ Global
 		{59D0260A-0DF6-41D1-B986-8E7512A9B0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59D0260A-0DF6-41D1-B986-8E7512A9B0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59D0260A-0DF6-41D1-B986-8E7512A9B0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5633C33E-B505-4D25-8448-752C1332FCEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5633C33E-B505-4D25-8448-752C1332FCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5633C33E-B505-4D25-8448-752C1332FCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5633C33E-B505-4D25-8448-752C1332FCEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8710E55-7AC8-463E-BCF9-04E6CA903C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8710E55-7AC8-463E-BCF9-04E6CA903C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8710E55-7AC8-463E-BCF9-04E6CA903C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8710E55-7AC8-463E-BCF9-04E6CA903C26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,6 +106,8 @@ Global
 		{57305B99-310F-4018-9E34-9D2087679E1F} = {2E2EF5E9-D49C-4182-AC4F-8B52230A3510}
 		{E0D39EDE-ECCF-47FD-B1B3-E0B65419CB0E} = {2E2EF5E9-D49C-4182-AC4F-8B52230A3510}
 		{59D0260A-0DF6-41D1-B986-8E7512A9B0FC} = {CE0DC2E0-7444-4983-9FC0-00F7E9D313C7}
+		{5633C33E-B505-4D25-8448-752C1332FCEB} = {CE0DC2E0-7444-4983-9FC0-00F7E9D313C7}
+		{D8710E55-7AC8-463E-BCF9-04E6CA903C26} = {CE0DC2E0-7444-4983-9FC0-00F7E9D313C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68C9AEF6-C67F-4EEC-8D84-002D4D6CCA69}
