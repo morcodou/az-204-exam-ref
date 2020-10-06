@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureRedisCache", "Chapter0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationInsightsTelemetry", "Chapter04\ApplicationInsightsTelemetry\ApplicationInsightsTelemetry.csproj", "{E0D39EDE-ECCF-47FD-B1B3-E0B65419CB0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicAppCustomConnector", "Chapter05\LogicAppCustomConnector\LogicAppCustomConnector.csproj", "{59D0260A-0DF6-41D1-B986-8E7512A9B0FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{E0D39EDE-ECCF-47FD-B1B3-E0B65419CB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0D39EDE-ECCF-47FD-B1B3-E0B65419CB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0D39EDE-ECCF-47FD-B1B3-E0B65419CB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D0260A-0DF6-41D1-B986-8E7512A9B0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D0260A-0DF6-41D1-B986-8E7512A9B0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D0260A-0DF6-41D1-B986-8E7512A9B0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D0260A-0DF6-41D1-B986-8E7512A9B0FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{B28CA3A0-A82E-4987-A47F-5A3597E6B81A} = {C79C9FDD-73FB-4B2D-87DA-7D06D900BB5C}
 		{57305B99-310F-4018-9E34-9D2087679E1F} = {2E2EF5E9-D49C-4182-AC4F-8B52230A3510}
 		{E0D39EDE-ECCF-47FD-B1B3-E0B65419CB0E} = {2E2EF5E9-D49C-4182-AC4F-8B52230A3510}
+		{59D0260A-0DF6-41D1-B986-8E7512A9B0FC} = {CE0DC2E0-7444-4983-9FC0-00F7E9D313C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68C9AEF6-C67F-4EEC-8D84-002D4D6CCA69}
